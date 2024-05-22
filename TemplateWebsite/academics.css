@@ -1,0 +1,306 @@
+.activeButton {
+    font-size: 30px;
+}
+
+body {
+    margin:0;
+    padding:0;
+    text-align: center;
+    align-items: center;
+    background: #bababa;;
+}
+
+.divPattern {
+    padding: 12px;
+    height: auto;
+    background:#bababa;
+}
+
+.divPattern header {
+    margin-bottom: 0px;
+    padding: 20px;
+    height:auto;
+    width: auto;
+    text-align: center;
+    background: #bababa ;
+    background-image: linear-gradient(#bababa,#bababa);
+}
+
+.divPattern header h1 {
+    color: #fff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#icon {
+    width: 120px;
+} 
+
+header .icon {
+    background: #f4f9fb;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+}
+
+.placeholder {
+    padding: 10px;
+    display: flex;
+    background-color: #bababa;
+    width: auto;
+    height: auto;
+}
+
+.placeholder nav {
+    margin-right: 18px;
+    padding: 12px;
+    height: auto;
+    background: #fff;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display:block;
+    background: #bababa;
+    width: 138px;
+    padding: 10px;
+    margin-top: 12px;
+}
+
+.links a:hover {
+    background-color: red;
+}
+
+.dropbtn {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    display: inline;
+}
+
+.dropbtn a {
+    font-weight: bolder;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.placeholder .main {
+  
+    overflow: hidden;
+    background-image: linear-gradient(to left, rgba(47, 48, 49, 0.72), rgba(54, 51, 54, 0.52)),
+    url('academicsPhoto.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    height: auto;
+    width: 1800px;
+}
+
+h2 {
+    color: #fff;
+    font-family: sans-serif;
+    font-weight:bold;
+}
+
+footer {
+    margin: 4px;
+    padding: 4px;
+    margin-top: 96px;
+}
+
+footer img {
+    width: 360px;
+    position: relative;
+}
+
+footer p {
+    display: block;
+    position: relative;
+    font-weight: bold;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+footer a {
+    text-decoration: underline;
+    color: #bababa;
+}
+
+.faculties {
+    color: #f4f9fb;
+    display:inline-block;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.institutes {
+    color: #f4f9fb;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.personal {
+    color: #f4f9fb;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+th {
+    letter-spacing: 0.5px;
+    font-size: larger;
+}
+
+td {
+    font-size: large;
+    
+}
+th,td {
+    display:inline-block;
+    background-color: rgba(255, 255, 255, 0.527);
+    padding: 20px;
+    width:150px ;
+    height: 30px;
+}
+
+
+@media (max-width: 768px) {
+
+    header .icon {
+        width: 90px;
+        height: 90px;
+    }
+    #icon {
+        width: 90px;
+    }
+
+    header h1 {
+        font-size: medium;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .main {
+        margin-left: 12px;
+    }
+
+    .placeholder nav {
+        border-radius: 10px;
+        margin-right: 0px;
+        padding: 6px;
+        height: auto;
+        background: #fff;
+    }
+    
+    .links a {
+        font-size: 10px;
+        width: auto;
+        padding: 6px;
+        margin-top: 10px;
+    }
+
+    table thead {
+        display: none;
+    }
+
+    table,table tbody, table tr,table td {
+        display: block;
+        width: 100%;
+    }
+
+    table tr {
+        margin-bottom: 24px;
+        width: 180px;
+        margin-left: 8%;
+    }
+
+    table td {
+        font-size: 12px;
+        margin: 2px;
+        position: relative;
+
+    }
+
+    table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        padding-left:15px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+    
+    th,td {
+        display:inline-block;
+        background-color: rgba(82, 23, 23, 0.527);
+        padding: 20px;
+        width:60px ;
+        height: 30px;
+    }
+
+    footer img {
+        width: 270px;
+    }
+
+
+    .container {
+        padding: 4px;
+    }
+}
+
+@media (max-width:991px) {
+    
+    th,td {
+        display:inline-block;
+        background-color: rgba(82, 23, 23, 0.527);
+        padding: 20px;
+        width:100px ;
+        height: 30px;
+    }
+    
+    .faculties {
+        color: #f4f9fb;
+        display:inline-block;
+        position: relative;
+        margin-bottom: 24px;
+    }
+    
+    .institutes {
+        color: #f4f9fb;
+        display: inline-block;
+        position: relative;
+        margin-bottom: 24px;
+    }
+    
+    .personal {
+        color: #f4f9fb;
+        display: inline-block;
+        position: relative;
+        margin-bottom: 24px;
+    }
+    
+    th {
+        letter-spacing: 0.5px;
+        font-size: larger;
+    }
+    
+    td {
+        font-size: large;
+        
+    }
+}

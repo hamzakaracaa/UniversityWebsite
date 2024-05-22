@@ -1,0 +1,185 @@
+body{
+    margin:0;
+    padding:0;
+    text-align: center;
+    align-items: center;
+    background:#bababa;
+}
+
+.divPattern{
+    padding: 12px;
+    height: auto;
+    background:#bababa;
+}
+
+.divPattern header{
+    margin-bottom: 0px;
+    padding: 20px;
+    height:auto;
+    width: auto;
+    text-align: center;
+    background: #bababa ;
+    background-image: linear-gradient(#bababa,#bababa);
+}
+
+.divPattern header h1{
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#icon{
+    width: 120px;
+} 
+
+header .icon{
+    background: #f4f9fb;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+}
+
+.placeholder{
+    padding-top: 16px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    display: block;
+    background-image: linear-gradient(to left, rgba(47, 48, 49, 0.72), rgba(54, 51, 54, 0.52)),
+                        url('logINPhoto.jpg');
+    background-size: cover;
+    width: auto;
+    height: 600px;
+}
+
+ p.title{
+    margin-top: 30px;
+    color: #f4f9fb;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.input-area{
+    display:inline-block;
+    position: relative;
+    margin-top: 48px;
+    padding-top: 16px;
+    background:#bababa;
+    width: 450px;
+    height: 330px;
+}
+
+.user-info{
+    color: #fff;
+    font-family:sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: left;
+    margin-left: 20%;
+    margin-bottom: 4px;
+}
+
+
+.submit {
+    color: #68201d;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    display:block;
+    position:relative;
+    background: #f4f9fb;
+    width: 72px;
+    height: auto;
+    padding: 10px;
+    margin: 36px auto;
+}
+
+input {
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    letter-spacing: 1px;
+    display: block;
+    position: relative;
+    margin: 4px auto;
+    padding-left: 5px;
+    border: none;
+    height: 30px;
+    width: 270px;
+}
+
+footer{
+    margin: 4px;
+    padding: 4px;
+}
+
+footer img{
+    width: 360px;
+    position: relative;
+}
+
+footer p{
+    display: block;
+    position: relative;
+    font-weight: bold;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+footer a{
+    text-decoration: underline;
+    color: #68201d;
+}
+
+@media (max-width: 768px){
+
+    .container{
+        padding: 4px;
+    }
+
+    header {
+        width: auto;
+    }
+    header .icon{
+        width: 75px;
+        height: 75px;
+    }
+    #icon{
+        width: 75px;
+    }
+
+    header h1{
+        font-size: medium;
+    }
+
+    p.title{
+        margin-bottom: 12px;
+    }
+
+    input{
+        width: 180px;
+    }
+
+    footer img{
+        width: 270px;
+    }
+
+    p.title{
+        font-size: larger;
+    }
+
+    .placeholder{
+        height: 570px;
+    }
+
+    .input-area{
+        padding: 4px;
+        width: 270px;
+        height: auto;
+    }
+
+    .user-info{
+        font-size: small;
+        margin-top: 24px;
+    } 
+}

@@ -1,0 +1,206 @@
+.activeButton {
+    font-size: 30px;
+}
+
+body {
+    margin:0;
+    padding:0;
+    text-align: center;
+    align-items: center;
+    background:#bababa;
+}
+
+.divPattern{
+    
+    padding: 12px;
+    height: auto;
+    background:#bababa;
+}
+
+.divPattern header{
+    margin-bottom: 0px;
+    padding: 20px;
+    height:auto;
+    width: auto;
+    text-align: center;
+    background: #bababa ;
+    background-image: linear-gradient(#bababa,#bababa);
+}
+
+.divPattern header h1{
+    
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#icon{
+    width: 120px;
+} 
+
+header .icon{
+    background: #f4f9fb;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+}
+
+.placeholder{
+    padding: 10px;
+    display: flex;
+    background-color: #bababa;
+    width: auto;
+    height: auto;
+}
+
+.placeholder nav{
+    margin-right: 18px;
+    padding: 12px;
+    height: auto;
+    background: #fff;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display:block;
+    background: #bababa;
+    width: 138px;
+    padding: 10px;
+    margin-top: 12px;
+}
+
+.links a:hover{
+    background-color: red;
+}
+
+.dropbtn{
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    display: inline;
+}
+
+.dropbtn a{
+    font-weight: bolder;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.placeholder .main{
+    overflow: hidden;
+    background: #fff;
+    font-family: sans-serif;
+    height: auto;
+    width: 1800px;
+}
+
+.main h2{
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-top: 48px;
+    margin-bottom: 8px;
+}
+
+.downloadBtn{
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    width: 90px;
+    height: auto;
+    background: green;
+    color: #f4f9fb;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+footer{
+    margin: 4px;
+    padding: 4px;
+    margin-top: 96px;
+}
+
+footer img{
+    width: 360px;
+    position: relative;
+}
+
+footer p{
+    display: block;
+    position: relative;
+    font-weight: bold;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+footer a{
+    text-decoration: underline;
+    color: #68201d;
+}
+
+@media (max-width: 768px){
+
+    header .icon{
+        width: 90px;
+        height: 90px;
+    }
+    #icon{
+        width: 90px;
+    }
+
+    .main{
+        margin-left: 12px;
+        
+    }
+
+    .placeholder nav{
+        border-radius: 10px;
+        margin-right: 0px;
+        padding: 6px;
+        height: auto;
+        background: #fff;
+        
+    }
+    
+    .container{
+        padding: 4px;
+    }
+
+    .links a{
+        font-size: 10px;
+        width: auto;
+        padding: 6px;
+        margin-top: 10px;
+    }
+
+    .main h2{
+        margin-right:5px;
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+
+    footer img{
+        width: 270px;
+    }
+
+    header h1{
+        font-size: medium;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+}
